@@ -59,7 +59,12 @@ const Exchanges = () => {
               />
             ))}
           </HStack>
-          <HStack w={"full"} overflowX={"auto"} p={"8"}>
+          <HStack
+            w={"full"}
+            overflowX={"auto"}
+            p={"8"}
+            justifyContent={"center"}
+          >
             {buttons.map((item, index) => (
               <Button
                 key={index}
